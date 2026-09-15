@@ -1,16 +1,5 @@
-# Static PHP Portfolio
+# GitHub Pages Portfolio
 
-This is the Laravel portfolio converted into a standalone PHP page.
+Static GitHub Pages version. `index.html` is the entry point.
 
-## Files
-- `index.php` — the complete portfolio (HTML + CSS, with only a PHP year).
-- `images/profile.jpg` — profile photo.
-- `cv/GUEVARA_CV.pdf` — CV.
-- `favicon.ico` — favicon.
-
-No Laravel, Composer, database, Node.js, Vite, or external build process is required.
-
-## Important: GitHub Pages
-GitHub Pages does **not execute PHP**. If you deploy this repository specifically with GitHub Pages, `index.php` will not run as PHP.
-
-For GitHub Pages, use an `index.html` version of this same file (replace `<?= date('Y') ?>` with the current year). For a PHP host, upload this folder as-is.
+Upload the contents of this folder to the root of your Pages repository. No PHP, Laravel, Composer, Node.js, or database is required.
